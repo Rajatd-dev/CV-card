@@ -1,0 +1,89 @@
+body{
+    background-color:#9D7132 ;
+   
+}
+
+.profile-picture{
+    opacity:0.75;
+    height:250px;
+    width:250px;
+    position:relative;
+    overflow:hidden;
+
+    background:url('https://qph.cf2.quoracdn.net/main-qimg-f32f85d21d59a5540948c3bfbce52e68');
+
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size:cover;
+   box-shadow: 0 8px 6px -6px black;
+
+}
+.file-uploader{
+    opacity:0px;
+    height:100%;
+    width:100%;
+    cursor:pointer;
+    position:absolute;
+    top:0%;
+    left:0%;
+
+}
+.upload-icon{
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+    transition:opacity0.3s ease;
+    color:#ccc;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #bbb;
+
+}
+
+.profile-picture:hover .upload-icon{
+    opacity:1;
+}
+.front-client-card{
+    align-items: center;
+    align-items: center; /* Line ke center mein */
+    justify-content: center;
+    margin: auto;
+    border:2px solid black;
+    width:fit-content;
+    display:flex;
+   gap:50px;
+    
+}
+.front-form {
+    display:grid;
+    grid-template-columns: auto auto ;
+    align-items: center;
+    gap:10px 20px;
+    width:fit-content;
+}
+.input-group{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:5px;
+    
+}
+label{
+    font-weight: bold;
+    
+}
+input{
+    padding:8px;
+    width:200px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+.summary{
+    background-color: rgba(23,23,23,0.1);
+   
+}
+.input2-group{
+    display:flex;
+    gap:20px;
+}

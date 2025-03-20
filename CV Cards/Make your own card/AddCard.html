@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Card </title>
+    <script src="https://use.fontawesome.com/fe459689b4.js"></script>
+    <link rel="stylesheet" href="AddCard.css">
+    <script src="working.js"defer></script>
+</head>
+
+<body>
+    <h1>Front Face</h1> 
+    
+    <div class="front-client-card">
+        <div class="profile-picture">
+            <h1 class="upload-icon">
+                <i class="fa fa-plus fa-2x aria-hidden=" true></i>
+            </h1>
+            <input class="file-uploader" type="file" onchange="upload()" acc />
+        </div>
+
+        <div class="front-form">
+            <div class="input-group">
+                <label for="Name">Name:</label>
+                <input type="text" placeholder="Enter Your Name" required>
+                <label for="Age">Age:</label>
+                <input type="number" placeholder="Enter Your Age" required>
+            </div>
+            <!-- Second Row -->
+            <div class="input-group">
+                <label for="Email">Email:</label>
+                <input type="email" placeholder="Enter Your Email" required>
+                <label for="Phone">Phone No.:</label>
+                <input type="number" placeholder="Enter Your Phone Number" required>
+            </div>
+        </div>
+
+        <div class="back-form">
+
+        </div>
+
+    </div>
+    <h1>Back Face</h1>
+   
+    <div class="back-form">
+        <div class="input2-group">
+            <label for="Name">Summary:</label>
+            <input type="text" placeholder="Tell us Something about you" required>
+            <label for="Name">Skills:</label>
+            <input type="text" placeholder="Add your skills" required>
+            <label for="Name">Language:</label>
+            <input type="text" placeholder="Language" required>
+            <label for="Name">Past Experience:</label>
+            <input type="number" placeholder="Past Experience" required>
+            <button>Create Card</button>
+        </div>
+    </div>
+    <footer></footer>
+
+
+   
+</body>
+
+</html>
