@@ -1,2 +1,2 @@
-# CV-card
-My Project
+# Project
+CV Card
